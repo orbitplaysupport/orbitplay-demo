@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>OrbitPlay — Demonstration Playlist</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    max-width: 44rem; margin: 0 auto; padding: 3rem 1.5rem 6rem; background: Canvas; color: CanvasText; }
+  h1 { font-size: 1.55rem; margin: 0 0 .3rem; letter-spacing: -.02em; }
+  .sub { color: GrayText; margin: 0 0 2.5rem; }
+  h2 { font-size: 1.05rem; margin: 2.4rem 0 .6rem; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .875em;
+    background: color-mix(in srgb, CanvasText 8%, Canvas); padding: .12em .4em; border-radius: 4px; word-break: break-all; }
+  .box { background: color-mix(in srgb, CanvasText 5%, Canvas); border-radius: 8px; padding: 1rem 1.2rem; margin: 1rem 0; }
+  table { border-collapse: collapse; width: 100%; font-size: .92rem; margin: .8rem 0; }
+  th, td { text-align: left; padding: .5rem .7rem .5rem 0; border-bottom: 1px solid color-mix(in srgb, CanvasText 12%, Canvas); vertical-align: top; }
+  th { font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: GrayText; font-weight: 600; }
+  footer { margin-top: 3rem; padding-top: 1.2rem; border-top: 1px solid color-mix(in srgb, CanvasText 15%, Canvas); color: GrayText; font-size: .875rem; }
+</style>
+</head>
+<body>
+
+<h1>OrbitPlay — demonstration playlist</h1>
+<p class="sub">Test material for reviewing the application. Not bundled with the app.</p>
+
+<p><strong>OrbitPlay is a media player.</strong> It does not provide, host, sell or promote any
+media content. The application ships with no playlists: every source is added by the user.</p>
+
+<p>This playlist exists so the application can be evaluated without a third-party subscription.
+Every stream in it is published freely and publicly by its own rights holder.</p>
+
+<h2>How to load it</h2>
+<div class="box">
+  <p style="margin:0 0 .5rem">Open OrbitPlay, tap <strong>+</strong>, choose <strong>Import from URL</strong> and paste:</p>
+  <p style="margin:0"><code>https://orbitplaysupport.github.io/orbitplay-demo/demo-playlist.m3u</code></p>
+</div>
+<p>That single link is all that is needed — the programme guide is referenced from inside the
+playlist and loads automatically. No separate guide URL has to be entered.</p>
+
+<h2>What is in it</h2>
+<table>
+  <thead><tr><th>Channel</th><th>Published by</th></tr></thead>
+  <tbody>
+    <tr><td>Red Bull TV</td><td>Red Bull Media House — public live stream</td></tr>
+    <tr><td>NASA TV Public</td><td>NASA — public domain</td></tr>
+    <tr><td>tagesschau24</td><td>ARD — public live stream</td></tr>
+    <tr><td>Apple HLS Reference ×2</td><td>Apple Inc. — official HTTP Live Streaming examples</td></tr>
+    <tr><td>Big Buck Bunny</td><td>Blender Foundation — CC BY 3.0</td></tr>
+    <tr><td>Tears of Steel</td><td>Blender Foundation — CC BY 3.0</td></tr>
+  </tbody>
+</table>
+
+<h2>Programme guide</h2>
+<p>The listings in the XMLTV file are synthetic. They demonstrate that guide parsing and display
+work correctly; they do not represent an actual broadcast schedule, and every entry says so in its
+own description.</p>
+
+<footer>
+  Prepared for application review. Streams are linked, not redistributed — this playlist contains
+  addresses published by the rights holders themselves.
+</footer>
+
+</body>
+</html>
