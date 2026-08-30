@@ -1,0 +1,26 @@
+#EXTM3U x-tvg-url="https://orbitplaysupport.github.io/orbitplay-demo/demo-epg.xml.gz"
+# OrbitPlay — демонстрационный плейлист для проверки приложения.
+# Все потоки распространяются свободно их правообладателями: официальные
+# тестовые потоки Apple, публичные вещательные потоки, фильмы Blender
+# Foundation под лицензией Creative Commons. С приложением не поставляется.
+
+#EXTINF:-1 tvg-id="redbull.demo" group-title="Live TV",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+
+#EXTINF:-1 tvg-id="nasa.demo" group-title="Live TV",NASA TV Public
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
+
+#EXTINF:-1 tvg-id="tagesschau.demo" group-title="Live TV",tagesschau24
+https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+
+#EXTINF:-1 tvg-id="apple1.demo" group-title="Reference Streams",Apple HLS Reference (4x3)
+https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8
+
+#EXTINF:-1 tvg-id="apple2.demo" group-title="Reference Streams",Apple HLS Reference (fMP4)
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
+
+#EXTINF:-1 tvg-id="bbb.demo" group-title="Open Movies",Big Buck Bunny (Blender, CC BY 3.0)
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+#EXTINF:-1 tvg-id="tos.demo" group-title="Open Movies",Tears of Steel (Blender, CC BY 3.0)
+https://test-streams.mux.dev/test_001/stream.m3u8
