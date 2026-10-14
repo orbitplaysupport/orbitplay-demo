@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://orbitplaysupport.github.io/orbitplay-demo/demo-epg.xml.gz"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/orbitplaysupport/orbitplay-demo/main/demo-epg.xml.gz"
 # OrbitPlay — демонстрационный плейлист для проверки приложения.
 # Все потоки распространяются свободно их правообладателями: официальные
 # тестовые потоки Apple, публичные вещательные потоки, фильмы Blender
